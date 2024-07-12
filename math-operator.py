@@ -102,7 +102,59 @@ print('5 * (2 - 3j', '=', complex_num2)
 int_num1 = 5
 complex_num1 = (int_num1 + 1j) 
 complex_num2 = complex_num1 * 4
-print(int_num1, '+ 1j', '=', complex_num2)
+print('4 * (int_num1 + 1j)', '=', complex_num2)
+
+
+# Task2: basic math function
+
+print('Task2: basic math function')
 
 
 import math
+
+
+# maximum number
+print('max(2, 2.0, -0.5)', '=', max(2, 2.0, -0.5))
+print('max(-20, 2.0, -0.5)', '=', max(-20, 2.0, -0.5))
+
+# minimum number
+print('minimum number')
+print('min(23, 22, 55.0)', '=', min(23, 22, 55.0))
+print('min(23, 22, -55.0)', '=', min(23, 22, -55.0))
+
+
+# absoluteb number
+print('absoluteb number')
+print('abs(-34.23)', '=', abs(-34.23)) # returms 34.23
+print('abs(-84.23)', '=', abs(-84.23))
+
+# power
+print('power')
+print('pow(3, 4)', '=', pow(3, 4)) # meaning 3^4
+print('pow(7, 2)', '=', pow(7, 2)) 
+
+# cell function
+print('cell function')
+print('ceil(34/5)', '=', math.cell(34/5)) # the cell function after division returns the next integer number = 7
+print('ceil(82/4)', '=', math.cell(82/4)) 
+
+
+# floor function
+print('floor function')
+print('floor(34/5)', '=', math.floor(34/5)) # the floor function after division returns the lower integer number = 6 
+print('floor(34/3)', '=', math.floor(34/3)) 
+
+
+# maximum boolean
+print('maximum boolean')
+print('max(True, False)', '=', max(True, False)) # returns TRUE as maximium
+print('max(True, True)', '=', max(True, True)) # returns TRUE as maximium
+
+
+# absolute complex
+print('absolute complex')
+print('abs(4 - 3j)', '=', abs(4 - 3j))  # returns 5.0)
+print('abs(8 - 2j)', '=', abs(8 - 2j))  
+ 
+print('More is yet to come ...')
+print('Python is indeed a high-level (human understandable) programming language')
